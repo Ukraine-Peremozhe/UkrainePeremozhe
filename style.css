@@ -1,0 +1,1355 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.websiteBody {
+	display: flex;
+}
+
+.unorderedList {
+	list-style: none;
+	padding: 0;
+}
+
+.inline {
+	display: inline;
+}
+
+.navigator {
+	display: inline-flex;
+	list-style: none;
+}
+
+.divNavigator {
+	display: inline;
+	margin-top: 1rem;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.navLinks {
+	font-size: 3em;
+	margin-left: 2.5rem;
+}
+
+.navLinks:hover {
+	color: blue;
+	border-bottom: 3px blue solid;
+	margin-bottom: -3px;
+}
+
+.extraInformation {
+	outline: 1px black solid;
+	height: 273px;
+	width: 260px;
+	margin-top: 7rem;
+	background-color: lightgrey;
+	margin-left: 2rem;
+	overflow-y: hidden;
+}
+
+#extraBtn {
+	border: 5px darkgray groove;
+	background-color: #71797E;
+	width: 250px;
+}
+
+#dropdownarrow {
+	position: relative;
+	top: 5px;
+	left: 50px;
+	cursor: pointer;
+}
+
+.Roboto {
+    font-family: 'Roboto Condensed', sans-serif;
+    display: inline;
+}
+
+.extraLinks {
+	padding-top: 10px;
+	padding-bottom: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    border-bottom: 1px black solid;
+}
+
+.extraLinks:hover {
+	color: blue;
+}
+
+#extraLink {
+	padding-top: 0;
+}
+
+#welcomeToUkrainePeremozhe {
+	width: fit-content;
+	margin-left: 25rem;
+	margin-top: -23.5rem;
+}
+
+.title {
+	font-size: 2.5em;
+	font-family: 'Gloock', serif;
+}
+
+.doPeremohe {
+	text-decoration: underline;
+}
+
+.introduction {
+	width: 700px;
+	font-size: 1.12em;
+	font-family: 'Poppins', sans-serif;
+	margin-left: 23rem;
+}
+
+.contactUkrainePeremozhe {
+	width: 200px;
+	height: 300px;
+	outline: 3px black solid;
+	margin-top: -25rem;
+	float: right;
+	margin-right: 2rem;
+	background-color: gray;
+}
+
+#contactTitle {
+	text-align: center;
+	border-bottom: 3px solid black;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.emailInput  {
+	width: 120px;
+	outline: none;
+}
+
+#emailSubmit {
+	float: right;
+	background-color: #28282B;
+	color: white;
+	font-weight: bold;
+	margin-top: 20px;
+	margin-right: 30px;
+}
+
+#emailSubmit:hover {
+	background-color: #353935;
+}
+
+.emailMargin {
+	background-color: gainsboro;
+	height: 230px;
+}
+
+#tableMargin {
+	padding-top: 15px;
+}
+
+#None {
+	display: none;
+}
+
+.mobileMenu {
+	display: none;
+}
+
+.mobileMenuBody {
+	display: none;
+}
+
+/* History Section */
+
+.contentHistory {
+	width: 600px;
+	margin-left: 1rem;
+}
+
+.BriefSummary {
+	width: 950px;
+	margin-left: 1rem;
+}
+
+.BriefTitle {
+	display: inline;
+	font-size: 2em;
+	position: relative;
+	bottom: 4rem;
+	left: 20px;
+	font-family: 'Gloock', serif;
+}
+
+.BriefParagraph {
+	font-family: 'Poppins', sans-serif;
+}
+
+.BriefSections {
+	margin-top: 3rem;
+}
+
+#historyName {
+	text-align: center;
+	font-size: 3em;
+	font-family: 'Gloock', serif;
+}
+
+#historyParagraph {
+	width: 550px;
+	margin: auto;
+	font-family: 'Poppins', sans-serif;
+}
+
+.historyTopic {
+	width: 350px;
+	height: 450px;
+	border: 2px black solid;
+	border-radius: 15px;
+	float: right;
+	position: absolute;
+	bottom: 1rem;
+	left: 41rem;
+	background-color: lightgoldenrodyellow;
+	overflow-y: scroll;
+}
+
+.historyTopic::-webkit-scrollbar {
+	display: none;
+}
+
+.historyImages {
+	width: 300px;
+	height: 14800px;
+	border-left: 3px black solid;
+	position: absolute;
+	right: 0;
+	top: 8.5rem;
+}
+
+#historyBody {
+	border-bottom: 3px black solid;
+}
+
+.searchSection {
+	margin: 1rem;
+}
+
+#colorSearch {
+	height: 50px;
+	width: 350px;
+	position: absolute;
+	border-top-left-radius: 12px;
+	border-top-right-radius: 12px;
+	background-color: orangered;
+	border-bottom: 2px black solid;
+}
+
+#searchTopic {
+	border: 2px black groove;
+	outline: none;
+}
+
+#searchTopicc {
+	border: 2px black groove;
+	outline: none;
+}
+
+.searchTopicBtn {
+	border: 2px solid black;
+	font-weight: bold;
+	background-color: #28282B;
+	color: white;
+	cursor: pointer;
+}
+
+#historyTopicBtn:hover {
+	background-color: #353935;
+}
+
+.topics {
+	font-size: 1.5em;
+	color: #EC5800;
+	text-align: center;
+	font-weight: bold;
+	cursor: pointer;
+	width: fit-content;
+	margin: auto;
+	margin-bottom: 10px;
+}
+
+.topics:hover {
+	text-decoration: underline;
+}
+
+.topicContent {
+	margin-top: 4rem;
+}
+
+.topiCContent {
+	margin-top: 4rem;
+}
+
+.imagesPeremozhe {
+	width: fit-content;
+	margin: auto;
+	margin-bottom: 3rem;
+}
+
+.captions {
+	width: 250px;
+	margin: auto;
+	text-align: center;
+}
+
+/* Culture Section */
+
+#colorSearchCulture {
+	height: 50px;
+	width: 350px;
+	position: absolute;
+	border-top-left-radius: 12px;
+	border-top-right-radius: 12px;
+	background-color: #1434A4;
+	border-bottom: 2px black solid;
+}
+
+.historyCulture {
+	width: 350px;
+	height: 450px;
+	border: 2px black solid;
+	border-radius: 15px;
+	float: right;
+	margin-top: -45.5rem;
+	margin-right: 21.5rem;
+	background-color: lightblue;
+	overflow-y: scroll;
+}
+
+.historyCulture::-webkit-scrollbar {
+	display: none;
+}
+
+.topicsCulture {
+	font-size: 1.5em;
+	color: #00008B;
+	text-align: center;
+	font-weight: bold;
+	cursor: pointer;
+	width: fit-content;
+	margin: auto;
+	margin-bottom: 10px;
+}
+
+.topicsCulture:hover {
+	text-decoration: underline;
+}
+
+.CultureImages {
+	width: 300px;
+	height: 800px;
+	border-left: 3px black solid;
+	position: absolute;
+	right: 0;
+	top: 8.5rem;
+}
+
+.Vebir {
+	width: 400px;
+	height: 150px;
+	border: 2px black solid;
+	border-radius: 10px;
+	background-color: lightblue;
+	margin-left: 39.2rem;
+	margin-top: -13.5rem;
+}
+
+#UkraineCulture {
+	margin-top: 1rem;
+	line-height: 30px;
+}
+
+#Krashche {
+	font-weight: bold;
+	text-decoration: underline;
+	font-size: 1.2em;
+}
+
+/* Extra Information Basic Layout */
+
+.flexBox {
+	display: flex;
+}
+
+.extraNav {
+	display: inline-flex;
+	margin: 1rem;
+}
+
+.extraHeader {
+	border: 5px darkgray groove;
+	background-color: #71797E;
+	height: fit-content;
+	font-size: 2em;
+	padding: 5px;
+	font-family: 'Roboto', sans-serif;
+	white-space: nowrap;
+}
+
+.extraClasses {
+	margin-top: 1.3rem;
+	white-space: nowrap;
+	width: 80px;
+	height: 52px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1em;
+	overflow-y: hidden;
+	overflow-x: hidden;
+	user-select: none;
+	cursor: pointer;
+	border: 3px darkgray groove;
+	transition: 1s;
+}
+
+.extraClasses:hover {
+	width: 250px;
+}
+
+.extraP {
+	background-color: transparent;
+	position: relative;
+	bottom: 17px;
+}
+
+.extraClasses::-webkit-scrollbar {
+	display: none;
+}
+
+#extraSection {
+	max-width: 600px;
+	height: 440px;
+	margin: auto;
+	border: 2px black solid;
+	border-radius: 10px;
+	margin-top: 1rem;
+	background-color: #F0F8FF;
+}
+#extraSectionTWO {
+	max-width: 600px;
+	height: 440px;
+	margin: auto;
+	border: 2px black solid;
+	border-radius: 10px;
+	margin-top: 1rem;
+	background-color: #FFFAA0;
+}
+#extraSectionSIX {
+	max-width: 600px;
+	height: 440px;
+	margin: auto;
+	border: 2px black solid;
+	border-radius: 10px;
+	margin-top: 1rem;
+	background-color: #CF9FFF;
+}
+#extraSectionSEVEN {
+	max-width: 600px;
+	height: 440px;
+	margin: auto;
+	border: 2px black solid;
+	border-radius: 10px;
+	margin-top: 1rem;
+	background-color: #FAFAD2;
+}
+#extraSectionEIGHT {
+	max-width: 600px;
+	height: 440px;
+	margin: auto;
+	border: 2px black solid;
+	border-radius: 10px;
+	margin-top: 1rem;
+	background-color: #E1C16E;
+}
+#extraSectionNINE {
+	max-width: 600px;
+	height: 440px;
+	margin: auto;
+	border: 2px black solid;
+	border-radius: 10px;
+	margin-top: 1rem;
+	background-color: #98FB98;
+}
+
+.extraPictureMargin {
+	margin: 0.5rem;
+}
+
+.extraInline {
+	display: inline;
+	font-size: 2.5em;
+	position: relative;
+	bottom: 3rem;
+	font-family: 'Roboto', sans-serif;
+}
+
+.extraParagraph {
+	width: 500px;
+	text-align: center;
+	font-weight: bold;
+	margin: auto;
+}
+
+#influenceBtn {
+	font-size: 1.5em;
+	font-weight: bold;
+	width: fit-content;
+	margin-left: 15rem;
+	margin-top: 1rem;
+	background-color: #d7ecff;
+	color: white;
+	text-shadow: -1px 1px 2px #000,
+				  1px 2px 6px #000,
+				  1px -1px 0 #000,
+				  -1px -1px 0 #000;
+}
+#influenceBtnTWO {
+	background-color: #FBEC5D;
+		font-size: 1.5em;
+	font-weight: bold;
+	width: fit-content;
+	margin-left: 15rem;
+	margin-top: 1rem;
+	color: white;
+	text-shadow: -1px 1px 2px #000,
+				  1px 2px 6px #000,
+				  1px -1px 0 #000,
+				  -1px -1px 0 #000;
+}
+#influenceBtnSIX {
+	background-color: #AA98A9;
+	font-size: 1.5em;
+	font-weight: bold;
+	width: fit-content;
+	margin-left: 15rem;
+	margin-top: 1rem;
+	color: white;
+	text-shadow: -1px 1px 2px #000,
+				  1px 2px 6px #000,
+				  1px -1px 0 #000,
+				  -1px -1px 0 #000;
+}
+#influenceBtnSEVEN {
+	background-color: #E6BE8A;
+	font-size: 1.5em;
+	font-weight: bold;
+	width: fit-content;
+	margin-left: 15rem;
+	margin-top: 1rem;
+	color: white;
+	text-shadow: -1px 1px 2px #000,
+				  1px 2px 6px #000,
+				  1px -1px 0 #000,
+				  -1px -1px 0 #000;
+}
+#influenceBtnEIGHT {
+	background-color: #CD7F32;
+	font-size: 1.5em;
+	font-weight: bold;
+	width: fit-content;
+	margin-left: 15rem;
+	margin-top: 1rem;
+	color: white;
+	text-shadow: -1px 1px 2px #000,
+				  1px 2px 6px #000,
+				  1px -1px 0 #000,
+				  -1px -1px 0 #000;
+}
+#influenceBtnNINE {
+	background-color: #0BDA51;
+	font-size: 1.5em;
+	font-weight: bold;
+	width: fit-content;
+	margin-left: 15rem;
+	margin-top: 1rem;
+	color: white;
+	text-shadow: -1px 1px 2px #000,
+				  1px 2px 6px #000,
+				  1px -1px 0 #000,
+				  -1px -1px 0 #000;
+}
+
+.extraA {
+	width: 250px;
+}
+
+#blue {
+	background-color: #F0F8FF;
+}
+
+#yellow {
+	background-color: #FFFAA0;
+}
+
+#purple {
+	background-color: #CF9FFF;
+}
+
+#gold {
+	background-color: #FAFAD2;
+}
+
+#chocolate {
+	background-color: #E1C16E;
+}
+
+#green {
+	background-color: #98FB98;
+}
+
+.continuePage {
+	display: none;
+}
+
+.continuePageName {
+	font-size: 3em;
+	position: absolute;
+	top: 1rem;
+	left: 10rem;
+}
+
+/* Ukrainian Influence  */
+
+.topicBoxes {
+	margin: 2rem;
+}
+
+.extraSearchTopics {
+	border-radius: 15px;
+	background-color: #F0F8FF;
+	border-color: #d7ecff;
+	padding-left: 10px;
+	font-weight: bold;
+}
+
+.extraSearchTopics::placeholder {
+	color: black;
+}
+
+.extraSearchArt {
+	background-color: #CF9FFF;
+	border-color: #AA98A9;
+}
+
+.extraSearchNarodni {
+	background-color: #E1C16E;
+	border-color: #9F8170;
+}
+
+.Treba {
+	position: relative;
+	bottom: 10px;
+	margin-left: 10px;
+	font-size: 1em;
+	font-family: 'Alkatra', cursive;
+}
+
+.Krasa {
+	border-right: 1px solid black;
+	padding-right: 10px;
+}
+
+.extraList {
+	border: 2px solid black;
+	border-radius: 15px;
+	background-color: #F0F8FF;
+	width: fit-content;
+	padding: 10px 10px 0 10px;
+	margin-left: 1rem;
+	margin-top: 2rem;
+	cursor: pointer;
+}
+
+.extraListArt {
+	background-color: #CF9FFF;
+}
+
+.extraListNarodni {
+	background-color: #E1C16E;
+}
+
+.extraDaily {
+	height: 210px;
+	width: 400px;
+	display: inline-block;
+	float: right;
+	background-color: #F0F8FF;
+	border-radius: 10px;
+	outline: 2px solid black;
+	margin-right: 5rem;
+	margin-top: 1rem;
+}
+
+.extraDailyArt {
+	background-color: #CF9FFF;
+}
+
+.extraDailyNarodni {
+	background-color: #E1C16E;
+}
+
+.dailyTopic {
+	font-size: 3em;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	margin: 1rem 0 0 0;
+	padding-bottom: 1rem;
+	border-bottom: 2px solid black;
+}
+
+#buttonSearch {
+	display: none;
+}
+
+.Learn {
+	width: 400px;
+	height: 400px;
+	border: 2px solid black;
+	background-color: white;
+	position: fixed;
+	left: 31rem;
+	top: 8.5rem;
+	overflow-y: scroll;
+	display: none;
+}
+
+.Learn::-webkit-scrollbar {
+	display: none;
+}
+
+.KrasaDva {
+	width: 100px;
+	height: 100px;
+	margin: 1rem;
+	border-radius: 50%;
+}
+
+.Imya {
+	display: inline;
+	position: relative;
+	bottom: 55px;
+	font-size: 1em;
+}
+
+.Description {
+	width: 350px;
+	text-align: center;
+	margin: auto;
+	padding-bottom: 20px;
+}
+
+.KrasotaDva {
+	font-family: 'Roboto', sans-serif;
+	white-space: nowrap;
+	position: relative;
+	bottom: 18px;
+	padding-left: 20px;
+	font-size: 0.8em;
+}
+
+.KrasotaDva:hover {
+	color: blue;
+}
+
+.Vse {
+	margin-left: 1rem;
+}
+
+.razdvatry {
+	position: absolute;
+	top: 0;
+	right: 0;
+	font-size: 1.5em;
+	margin: 10px;
+	cursor: pointer;
+}
+
+/* Quiz About Ukraine */
+
+.divQ {
+	width: fit-content;
+	position: relative;
+	top: -14rem;
+	margin: auto;
+}
+
+.QID {
+	display: inline;
+	font-size: 1.8em;
+	white-space: nowrap;
+	position: relative;
+	bottom: 4rem;
+	font-family: 'Roboto', sans-serif;
+}
+
+.imgQ1 {
+	margin-top: 5rem;
+	margin-left: 3rem;
+}
+
+.imgQ2 {
+	float: right;
+	margin-top: 5rem;
+	margin-right: 3rem;
+}
+
+.tableMarginQ {
+	margin: auto;
+}
+
+.extraAn {
+	border: 2px black solid;
+	border-radius: 15px;
+	padding: 10px;
+	background-color: #FFFAA0;
+	cursor: pointer;
+}
+
+#and1, #and3 {
+	margin-right: 20px;
+}
+#and2, #and4 {
+	margin-left: 20px;
+}
+
+.progressQ {
+	width: 100%;
+	height: 100px;
+	border-top: 3px black solid;
+	background-color: #FFFAA0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+.inlineQP {
+	display: inline;
+	width: 25px;
+	height: 25px;
+	border: 1px black solid;
+	border-radius: 50%;
+	/*background-color: white;*/
+	margin-left: 10px;
+	margin-right: 10px;
+	background: rgb(255,255,255);
+background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(218,230,230,1) 100%);
+}
+
+.noneQP {
+	display: none;
+}
+
+#theScore {
+	font-size: 5em;
+	width: fit-content;
+	margin: auto;
+	text-decoration: underline;
+	color: white;
+	text-shadow: -1px 1px 2px #000,
+				  1px 2px 6px #000,
+				  1px -1px 0 #000,
+				  -1px -1px 0 #000;
+}
+
+#Score {
+	margin-top: 3rem;
+	line-height: 7rem;
+}
+
+#yourScore {
+	font-size: 3em;
+	width: fit-content;
+	margin: auto;
+	color: white;
+	text-shadow: -1px 1px 2px #000,
+				  1px 2px 6px #000,
+				  1px -1px 0 #000,
+				  -1px -1px 0 #000;
+}
+
+.scoreBox {
+	border: 3px black solid;
+	background-color: #FFFAA0;
+	width: 400px;
+	margin: auto;
+}
+
+#paragraphScore {
+	width: fit-content;
+	margin-top: 3rem;
+	margin: auto;
+	font-weight: bold;
+	font-size: 1.5em;
+	font-family: 'Roboto', sans-serif;
+}
+
+#progressName {
+	position: absolute;
+	left: 10px;
+	bottom: 4rem;
+	font-family: 'Roboto', sans-serif;
+	font-size: 0.9em;
+}
+
+/* Roksolana Virlan */
+
+.Kartyny {
+	width: fit-content;
+	margin: auto;
+	margin-bottom: 8rem;
+	text-align: center;
+}
+
+.ImyaKartyny {
+	font-family: Poppins, sans-serif;
+	font-size: 3em;
+}
+
+.Opys {
+	font-size: 1.5em;
+	width: 500px;
+}
+
+.Horu {
+	margin-top: -3rem;
+}
+
+/* Ukrainian Language */
+
+.basicWords {
+	height: 450px;
+	width: 300px;
+	display: flex;
+	position: absolute;
+	top: 10rem;
+	margin-left: 1rem;
+	display: inline-block;
+}
+
+.titleBasicWords {
+	font-size: 2em;
+	font-weight: bold;
+	text-align: center;
+	border-bottom: 1px solid black;
+}
+
+.Cyrillic {
+	height: 450px;
+	margin-left: 23rem;
+	position: absolute;
+	top: 10rem;
+}
+
+.parahrafa {
+	width: 500px;
+}
+
+.parahrafaDiv {
+	float: right;
+	margin-right: 4rem;
+	margin-top: -5rem;
+}
+
+.Pryvit {
+	font-size: 3em;
+	text-align: center;
+}
+
+.BOLD {
+	font-weight: bold;
+}
+
+.languageVideo {
+	margin-left: 22.5rem;
+	outline: 1px black solid;
+}
+
+.pronounce {
+	margin-top: 32.8rem;
+	margin-left: 25.8rem;
+	margin-bottom: 1rem;
+	font-family: 'Gloock', serif;
+	font-size: 0.9em;
+	display: inline-block;
+}
+
+.moreLanguage {
+	width: 1000px;
+	margin-left: 22rem;
+	border-top: 2rem solid transparent;
+}
+
+.moreLangText {
+	text-align: center;
+	font-family: 'Gloock', serif;
+	font-size: 3em;
+}
+
+.langInline {
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	width: 950px;
+}
+
+.EMLang {
+	font-size: 0.8em;
+}
+
+.gridLanguage {
+	display: inline-grid;
+	grid-template-columns: 1fr;
+	grid-row-gap: 20px;
+	float: right;
+	margin-right: 3rem;
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+}
+
+.Krasota {
+	font-family: 'Roboto', sans-serif;
+	white-space: nowrap;
+	position: relative;
+	bottom: 18px;
+	padding-left: 20px;
+}
+
+.Krasota:hover {
+	color: blue;
+}
+
+.Border50 {
+	border-radius: 50%;
+}
+
+/* Ukrainian Folk Songs */
+
+.OHO {
+	font-weight: 1000;
+}
+
+.Slovo {
+	position: relative;
+	top: 15px;
+	font-family: 'Lobster', sans-serif;
+	text-decoration: underline;
+}
+
+.Slova {
+	position: relative;
+	top: 15px;
+	line-height: 5px;
+}
+
+.Muzyka {
+	color: blue;
+}
+
+.DescriptionNarodni {
+	margin-left: 30px;
+	position: relative;
+	bottom: 25px;
+}
+
+.NarodniHR {
+	border-color: black;
+	width: 100%;
+	float: left;
+	box-sizing: border-box;
+}
+
+.NarodniSlova {
+	margin-left: 30px;
+}
+
+/* All Sources */
+
+.Sources {
+	margin: 1rem 0 1rem 1rem;
+}
+
+/*  */
+
+@media only screen and (max-width: 1250px) {
+
+	.contactUkrainePeremozhe {
+		float: left;
+		margin-left: 4rem;
+		position: relative;
+		top: 3rem;
+	}
+
+	.navLinks {
+	    font-size: 2.5em;
+    }
+
+    .introduction {
+    	font-size: 1.5em;
+    }
+
+}
+
+@media only screen and (max-width: 1080px) {
+
+	.navLinks {
+		font-size: 2em;
+	}
+
+	#welcomeToUkrainePeremozhe {
+		margin-left: 23rem;
+	}
+
+	.introduction {
+		margin-left: 21rem;
+	}
+}
+
+@media only screen and (max-width: 1050px) {
+
+	.introduction {
+		width: 600px;
+	}
+
+	#welcomeToUkrainePeremozhe {
+		margin-left: 20.5rem;
+	}
+
+	.contactUkrainePeremozhe {
+		top: 0;
+	}
+}
+
+@media only screen and (max-width: 970px) {
+
+	.introduction {
+		width: 500px;
+		font-size: 1.3em;
+	}
+
+	.contactUkrainePeremozhe {
+		top: 2rem;
+	}
+
+	#welcomeToUkrainePeremozhe {
+		font-size: 0.8em;
+		margin-left: 21.5rem;
+	}
+}
+
+@media only screen and (max-width: 930px) {
+
+	.navLinks {
+		font-size: 1.7em;
+	}
+}
+
+@media only screen and (max-width: 860px) {
+
+	.extraInformation {
+	    position: absolute; 
+        bottom: 0;
+        margin-bottom: -24rem;
+	}
+
+	#welcomeToUkrainePeremozhe {
+		position: relative;
+		top: 30rem;
+		right: 18rem;
+		white-space: nowrap;
+	}
+
+	.contactUkrainePeremozhe {
+		margin-top: 3rem;
+		margin-left: 20rem;
+	}
+
+	.introduction {
+		font-size: 1em;
+		width: 650px;
+		margin-top: 31rem;
+		margin-left: 1rem;
+	}
+
+	body {
+		height: 1050px;
+	}
+}
+
+@media only screen and (max-width: 850px) {
+
+	.divNavigator {
+		margin-left: -3rem;
+	}
+
+	.navLinks {
+		margin-left: 1.5rem;
+	}
+}
+
+@media only screen and (max-width: 730px) {
+	
+	.navigator {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+
+	#None {
+		display: block;
+	}
+}
+
+@media only screen and (max-width: 680px) {
+
+	.introduction {
+		width: 500px;
+	}
+
+	#welcomeToUkrainePeremozhe {
+		right: 20.5rem;
+	}
+
+	.extraInformation {
+		margin-bottom: -32rem;
+	}
+
+	body {
+		height: 1180px;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	
+	.navLinks {
+		font-size: 1.5em;
+	}
+}
+
+@media only screen and (max-width: 550px) {
+
+	.navLinks {
+		font-size: 1.3em;
+	}
+}
+
+@media only screen and (max-width: 530px) {
+	
+	.divNavigator {
+		display: none;
+	}
+
+	.mobileMenu {
+		display: block;
+		position: absolute;
+		right: 0;
+	}
+
+	i {
+		font-size: 2em;
+		padding: 10px;
+		cursor: pointer;
+	}
+
+	#mobileText {
+		position: fixed;
+		margin: 0;
+		padding-top: 5px;
+		padding-left: 5px;
+        font-family: 'Roboto Condensed', sans-serif;
+	}
+
+	.mobileMenuBody {
+		position: fixed;
+		right: 0;
+		top: 0;
+		border: 3px solid black;
+		width: 220px;
+		height: 296px;
+		background-color: gray;
+		z-index: 1;
+	}
+
+	.mobileUL {
+		padding-top: 30px;
+	}
+
+	.closeMenu {
+		float: right;
+		position: relative;
+		bottom: 2px;
+	}
+
+	.navMobile {
+		border-top: black 3px solid;
+		font-size: 2em;
+		background-color: lightgrey;
+		padding: 5px;
+	}
+
+	.introduction {
+		width: 400px;
+	}
+
+	.title {
+		font-size: 2em;
+	}
+
+	.extraInformation {
+		margin-bottom: -37rem;
+	}
+
+	.contactUkrainePeremozhe {
+		position: relative;
+		top: 25rem;
+		right: 16.5rem;
+	}
+
+	body {
+		height: 1600px;
+	}
+}
+
+@media only screen and (max-width: 450px) {
+
+	.introduction {
+		width: 300px;
+	}
+
+	.title {
+		font-size: 1.5em;
+	}
+
+	i {
+		font-size: 2.5em;
+	}
+
+	.closeMenu {
+		bottom: 7px;
+	}
+
+	.extraInformation {
+		margin-bottom: -51rem;
+	}
+
+	body {
+		height: 1850px;
+	}
+}
