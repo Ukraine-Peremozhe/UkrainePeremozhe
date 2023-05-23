@@ -368,7 +368,8 @@ a {
 	border: 2px black solid;
 	border-radius: 10px;
 	background-color: lightblue;
-	margin-left: 39.2rem;
+	float: right;
+	margin-right: 20rem;
 	margin-top: -13.5rem;
 }
 
