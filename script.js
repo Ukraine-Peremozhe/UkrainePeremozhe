@@ -1,6 +1,3 @@
-const mobileMenu = document.querySelector('.mobileMenu');
-const closeMenu = document.querySelector('.closeMenu');
-const mobileMenuBody = document.querySelector('.mobileMenuBody');
 const dropdownarrow = document.getElementById('dropdownarrow');
 const extraInformation = document.querySelector('.extraInformation');
 const contactUkrainePeremozhe = document.querySelector('.contactUkrainePeremozhe');
@@ -9,16 +6,6 @@ let count = 0;
 const a = window.matchMedia("(max-width: 1250px)");
 const b = window.matchMedia("(max-width: 860px)");
 const c = window.matchMedia("(max-width: 530px)");
-
-mobileMenu.addEventListener('click', () => {
-	mobileMenu.style.display = 'none'
-	mobileMenuBody.style.display = 'block';
-});
-
-closeMenu.addEventListener('click', () => {
-	mobileMenuBody.style.display = 'none';
-	mobileMenu.style.display = 'block';
-});
 
 dropdownarrow.addEventListener('click', () => {
 	count++;
@@ -47,4 +34,26 @@ dropdownarrow.addEventListener('click', () => {
 		  	contactUkrainePeremozhe.style.top = '25rem';
 		    }
 	};
+});
+
+const newAdditions = document.querySelector('.newAdditions');
+const Podyvysya = document.getElementById('Podyvysya');
+const TakDobre = document.getElementById('TakDobre');
+const Teper = document.querySelectorAll('.Learn');
+const razdvatry = document.querySelector('.razdvatry');
+
+function funktsiya(Teper) {
+    Teper.style.display = 'none'; 
+}
+
+newAdditions.addEventListener('click', () => {
+    Teper.forEach(funktsiya);
+    TakDobre.style.opacity = '20%';
+    TakDobre.style.transition = '.2s';
+    Podyvysya.style.display = 'block';
+});
+
+razdvatry.addEventListener('click', () => {
+    Podyvysya.style.display = 'none';
+    TakDobre.style.opacity = '100%';
 });
