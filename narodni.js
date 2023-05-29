@@ -695,3 +695,57 @@ button101.addEventListener('click', () => {
     TakDobre.style.transition = '.2s';
     Learn101.style.display = 'block';
 });
+button102.addEventListener('click', () => {
+    Teper.forEach(funktsiya);
+    TakDobre.style.opacity = '20%';
+    TakDobre.style.transition = '.2s';
+    Learn102.style.display = 'block';
+});
+button103.addEventListener('click', () => {
+    Teper.forEach(funktsiya);
+    TakDobre.style.opacity = '20%';
+    TakDobre.style.transition = '.2s';
+    Learn103.style.display = 'block';
+});
+button104.addEventListener('click', () => {
+    Teper.forEach(funktsiya);
+    TakDobre.style.opacity = '20%';
+    TakDobre.style.transition = '.2s';
+    Learn104.style.display = 'block';
+});
+button105.addEventListener('click', () => {
+    Teper.forEach(funktsiya);
+    TakDobre.style.opacity = '20%';
+    TakDobre.style.transition = '.2s';
+    Learn105.style.display = 'block';
+});
+button106.addEventListener('click', () => {
+    Teper.forEach(funktsiya);
+    TakDobre.style.opacity = '20%';
+    TakDobre.style.transition = '.2s';
+    Learn106.style.display = 'block';
+});
+button107.addEventListener('click', () => {
+    Teper.forEach(funktsiya);
+    TakDobre.style.opacity = '20%';
+    TakDobre.style.transition = '.2s';
+    Learn107.style.display = 'block';
+});
+button108.addEventListener('click', () => {
+    Teper.forEach(funktsiya);
+    TakDobre.style.opacity = '20%';
+    TakDobre.style.transition = '.2s';
+    Learn108.style.display = 'block';
+});
+button109.addEventListener('click', () => {
+    Teper.forEach(funktsiya);
+    TakDobre.style.opacity = '20%';
+    TakDobre.style.transition = '.2s';
+    Learn109.style.display = 'block';
+});
+button110.addEventListener('click', () => {
+    Teper.forEach(funktsiya);
+    TakDobre.style.opacity = '20%';
+    TakDobre.style.transition = '.2s';
+    Learn110.style.display = 'block';
+});
