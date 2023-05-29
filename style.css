@@ -160,12 +160,30 @@ a {
 	display: none;
 }
 
-.mobileMenu {
-	display: none;
+.newAdditions {
+	width: 380px;
+	font-size: 1.4em;
+	font-family: 'Roboto Condensed', sans-serif;
+	text-align: center;
+	margin-left: 7rem;
+	border: 1px black solid;
+	border-radius: 15px;
+	background-color: lightgrey;
+	padding: 3px;
+	cursor: pointer;
+	background: rgb(255,231,228);
+    background: radial-gradient(circle, rgba(255,231,228,1) 0%, rgba(168,158,158,1) 100%);
 }
 
-.mobileMenuBody {
-	display: none;
+.Additions {
+	font-size: 2em;
+	font-family: 'Roboto Condensed', sans-serif;
+	margin: 10px 0 20px 15px;
+}
+
+.Rozdil {
+	font-size: 1.5em;
+	margin-left: 20px;
 }
 
 /* History Section */
@@ -910,6 +928,13 @@ background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(218,230,230,1) 
 	bottom: 4rem;
 	font-family: 'Roboto', sans-serif;
 	font-size: 0.9em;
+}
+
+#CorrectAnswers {
+	font-size: 2em;
+	font-family: 'Roboto', sans-serif;
+	width: fit-content;
+	margin: auto;
 }
 
 /* Roksolana Virlan */
