@@ -4,6 +4,8 @@ const Score = document.getElementById('Score');
 const yourScore = document.getElementById('yourScore');
 const inlineQP = document.querySelectorAll('.inlineQP');
 const allQP = document.querySelectorAll('.allQP');
+const Arrow = document.querySelector('.Arrow');
+const ArrowDva = document.querySelector('.ArrowDva');
 const correctQP = [];
 const Q1 = document.getElementById('Q1');
 const Q2 = document.getElementById('Q2');
@@ -80,6 +82,8 @@ const C22 = document.querySelector('.C22');
 const C23 = document.querySelector('.C23');
 const C24 = document.querySelector('.C24');
 const C25 = document.querySelector('.C25');
+const Vse = [Q1, Q2, Q3, Q4, Q5, Q6, Q7, Q8, Q9, Q10, Q11, Q12, Q13, Q14, Q15, 
+Q16, Q17, Q18, Q19, Q20, Q21, Q22, Q23, Q24, Q25, Score];
 let points = 0;
 
 for (i = 0; i < correct.length; i++) {
@@ -367,18 +371,207 @@ for(i = 0; i < extraAn.length; i++) {
             QP25.style.background = 'rgb(255,255,255)';
             QP25.style.background = 'radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(218,230,230,1) 100%)';
             yourScore.textContent = `${(points/25*100).toFixed(0)}%`;
+
+            correct.forEach(Pravilno)
+            function Pravilno(item) {
+                item.style.background = 'rgb(151,255,131)';
+                item.style.background = 'radial-gradient(circle, rgba(151,255,131,1) 0%, rgba(127,222,39,1) 100%)';
+            };
+
+            function Kinets(extraAn) {
+                extraAn.style.pointerEvents = 'none';
+            };
+            extraAn.forEach(Kinets);
+
                 for (i = 0; i < extraAn.length; i++) {
-                	if (!correctQP.includes(inlineQP[i])) {
-                		inlineQP[i].style.background = 'rgb(255,132,114)';
-                		inlineQP[i].style.background = 'radial-gradient(circle, rgba(255,132,114,1) 0%, rgba(191,46,21,1) 100%)';
-                	} else
-                	    correctQP.forEach(colorGreen)
-                        function colorGreen(item) {
-                    	    item.style.background = 'rgb(151,255,131)';
-            	            item.style.background = 'radial-gradient(circle, rgba(151,255,131,1) 0%, rgba(127,222,39,1) 100%)';
-                        }
+                	inlineQP.forEach(colorRed)
+                    function colorRed(item) {
+                        item.style.background = 'rgb(255,132,114)';
+                        item.style.background = 'radial-gradient(circle, rgba(255,132,114,1) 0%, rgba(191,46,21,1) 100%)';
+                        item.style.cursor = 'pointer';
+                    };
+                	correctQP.forEach(colorGreen)
+                    function colorGreen(item) {
+                        item.style.background = 'rgb(151,255,131)';
+            	        item.style.background = 'radial-gradient(circle, rgba(151,255,131,1) 0%, rgba(127,222,39,1) 100%)';
+                    };
                 };
-                
+
+                QP1.addEventListener('click', () => {
+                    Vse.forEach(Nema);
+                    function Nema(item) {
+                        item.style.display = 'none';
+                    };
+                    Q1.style.display = 'block'
+                });
+                QP2.addEventListener('click', () => {
+                    Vse.forEach(Nema);
+                    function Nema(item) {
+                        item.style.display = 'none';
+                    };
+                    Q2.style.display = 'block'
+                });
+                QP3.addEventListener('click', () => {
+                    Vse.forEach(Nema);
+                    function Nema(item) {
+                        item.style.display = 'none';
+                    };
+                    Q3.style.display = 'block'
+                });
+                QP4.addEventListener('click', () => {
+                    Vse.forEach(Nema);
+                    function Nema(item) {
+                        item.style.display = 'none';
+                    };
+                    Q4.style.display = 'block'
+                });
+                QP5.addEventListener('click', () => {
+                    Vse.forEach(Nema);
+                    function Nema(item) {
+                        item.style.display = 'none';
+                    };
+                    Q5.style.display = 'block'
+                });
+                QP6.addEventListener('click', () => {
+                    Vse.forEach(Nema);
+                    function Nema(item) {
+                        item.style.display = 'none';
+                    };
+                    Q6.style.display = 'block'
+                });
+                QP7.addEventListener('click', () => {
+                    Vse.forEach(Nema);
+                    function Nema(item) {
+                        item.style.display = 'none';
+                    };
+                    Q7.style.display = 'block'
+                });
+                QP8.addEventListener('click', () => {
+                    Vse.forEach(Nema);
+                    function Nema(item) {
+                        item.style.display = 'none';
+                    };
+                    Q8.style.display = 'block'
+                });
+                QP9.addEventListener('click', () => {
+                    Vse.forEach(Nema);
+                    function Nema(item) {
+                        item.style.display = 'none';
+                    };
+                    Q9.style.display = 'block'
+                });
+                QP10.addEventListener('click', () => {
+                    Vse.forEach(Nema);
+                    function Nema(item) {
+                        item.style.display = 'none';
+                    };
+                    Q10.style.display = 'block'
+                });
+                QP11.addEventListener('click', () => {
+                    Vse.forEach(Nema);
+                    function Nema(item) {
+                        item.style.display = 'none';
+                    };
+                    Q11.style.display = 'block'
+                });
+                QP12.addEventListener('click', () => {
+                    Vse.forEach(Nema);
+                    function Nema(item) {
+                        item.style.display = 'none';
+                    };
+                    Q12.style.display = 'block'
+                });
+                QP13.addEventListener('click', () => {
+                    Vse.forEach(Nema);
+                    function Nema(item) {
+                        item.style.display = 'none';
+                    };
+                    Q13.style.display = 'block'
+                });
+                QP14.addEventListener('click', () => {
+                    Vse.forEach(Nema);
+                    function Nema(item) {
+                        item.style.display = 'none';
+                    };
+                    Q14.style.display = 'block'
+                });
+                QP15.addEventListener('click', () => {
+                    Vse.forEach(Nema);
+                    function Nema(item) {
+                        item.style.display = 'none';
+                    };
+                    Q15.style.display = 'block'
+                });
+                QP16.addEventListener('click', () => {
+                    Vse.forEach(Nema);
+                    function Nema(item) {
+                        item.style.display = 'none';
+                    };
+                    Q16.style.display = 'block'
+                });
+                QP17.addEventListener('click', () => {
+                    Vse.forEach(Nema);
+                    function Nema(item) {
+                        item.style.display = 'none';
+                    };
+                    Q17.style.display = 'block'
+                });
+                QP18.addEventListener('click', () => {
+                    Vse.forEach(Nema);
+                    function Nema(item) {
+                        item.style.display = 'none';
+                    };
+                    Q18.style.display = 'block'
+                });
+                QP19.addEventListener('click', () => {
+                    Vse.forEach(Nema);
+                    function Nema(item) {
+                        item.style.display = 'none';
+                    };
+                    Q19.style.display = 'block'
+                });
+                QP20.addEventListener('click', () => {
+                    Vse.forEach(Nema);
+                    function Nema(item) {
+                        item.style.display = 'none';
+                    };
+                    Q20.style.display = 'block'
+                });
+                QP21.addEventListener('click', () => {
+                    Vse.forEach(Nema);
+                    function Nema(item) {
+                        item.style.display = 'none';
+                    };
+                    Q21.style.display = 'block'
+                });
+                QP22.addEventListener('click', () => {
+                    Vse.forEach(Nema);
+                    function Nema(item) {
+                        item.style.display = 'none';
+                    };
+                    Q22.style.display = 'block'
+                });
+                QP23.addEventListener('click', () => {
+                    Vse.forEach(Nema);
+                    function Nema(item) {
+                        item.style.display = 'none';
+                    };
+                    Q23.style.display = 'block'
+                });
+                QP24.addEventListener('click', () => {
+                    Vse.forEach(Nema);
+                    function Nema(item) {
+                        item.style.display = 'none';
+                    };
+                    Q24.style.display = 'block'
+                });
+                QP25.addEventListener('click', () => {
+                    Vse.forEach(Nema);
+                    function Nema(item) {
+                        item.style.display = 'none';
+                    };
+                    Q25.style.display = 'block'
+                });
         };
 	});
 };
