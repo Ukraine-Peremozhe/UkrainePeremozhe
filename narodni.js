@@ -749,3 +749,33 @@ button110.addEventListener('click', () => {
     TakDobre.style.transition = '.2s';
     Learn110.style.display = 'block';
 });
+button111.addEventListener('click', () => {
+    Teper.forEach(funktsiya);
+    TakDobre.style.opacity = '20%';
+    TakDobre.style.transition = '.2s';
+    Learn111.style.display = 'block';
+});
+button112.addEventListener('click', () => {
+    Teper.forEach(funktsiya);
+    TakDobre.style.opacity = '20%';
+    TakDobre.style.transition = '.2s';
+    Learn112.style.display = 'block';
+});
+button113.addEventListener('click', () => {
+    Teper.forEach(funktsiya);
+    TakDobre.style.opacity = '20%';
+    TakDobre.style.transition = '.2s';
+    Learn113.style.display = 'block';
+});
+button114.addEventListener('click', () => {
+    Teper.forEach(funktsiya);
+    TakDobre.style.opacity = '20%';
+    TakDobre.style.transition = '.2s';
+    Learn114.style.display = 'block';
+});
+button115.addEventListener('click', () => {
+    Teper.forEach(funktsiya);
+    TakDobre.style.opacity = '20%';
+    TakDobre.style.transition = '.2s';
+    Learn115.style.display = 'block';
+});
