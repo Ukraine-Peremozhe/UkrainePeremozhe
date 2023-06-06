@@ -511,3 +511,9 @@ button60.addEventListener('click', () => {
     TakDobre.style.transition = '.2s';
     Learn60.style.display = 'block';
 });
+button61.addEventListener('click', () => {
+    Teper.forEach(funktsiya);
+    TakDobre.style.opacity = '20%';
+    TakDobre.style.transition = '.2s';
+    Learn61.style.display = 'block';
+});
