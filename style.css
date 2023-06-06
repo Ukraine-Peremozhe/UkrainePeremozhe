@@ -186,6 +186,18 @@ a {
 	margin-left: 20px;
 }
 
+#quizParagraph {
+	font-size: 1.05em;
+}
+
+#kartynyParagraph {
+	font-size: 1.2em;
+}
+
+#sourcesParagraph {
+	font-size: 1.4em;
+}
+
 /* History Section */
 
 .contentHistory {
@@ -1132,6 +1144,113 @@ background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(218,230,230,1) 
     	font-size: 1.5em;
     }
 
+    .basicWords {
+    	margin-top: 260rem;
+    }
+
+    .Cyrillic {
+    	margin-top: 65rem;
+    }
+
+    .parahrafaDiv {
+    	float: none;
+    	width: fit-content;
+    	margin: auto;
+    }
+
+    .parahrafa {
+    	margin-top: -4rem;
+    }
+
+    .Pryvit {
+    	position: relative;
+    	bottom: 2.3rem;
+    }
+
+    .languageVideo {
+    	position: relative;
+    	bottom: 30rem;
+    }
+
+    .pronounce {
+    	position: relative;
+    	bottom: 30rem;
+    }
+
+    .langInline {
+    	width: 600px;
+    }
+
+    .Krasota {
+    	font-size: 0.8em;
+    }
+
+    .moreLangText {
+    	margin-right: 0;
+    }
+
+    .langInline {
+    	margin: 0;
+    }
+
+    .moreLanguage {
+    	width: fit-content;
+    	margin: auto;
+    }
+
+    .gridLanguage {
+    	float: none;
+    }
+
+    #historyParagraph {
+    	margin-bottom: 35rem;
+    }
+
+    .historyTopic {
+    	float: none;
+    	left: 8rem;
+    	top: 64rem;
+    }
+
+    .BriefParagraph {
+    	width: 600px;
+    }
+
+    .BriefTitle {
+    	font-size: 1em;
+    	bottom: 4.5rem;
+    }
+
+    .historyImages {
+    	height: 21900px;
+    }
+
+    .imagesPeremozhe {
+    	margin-bottom: 13rem;
+    }
+
+    .historyCulture {
+    	float: none;
+    	margin-right: 0;
+    	margin-left: 2rem;
+    	margin-top: -32rem;
+    	margin-bottom: 2rem;
+    }
+
+    .Vebir {
+    	float: none;
+    	margin-right: 0;
+    	margin-left: 0.5rem;
+    	margin-top: 0rem;
+    }
+
+    .CultureImages {
+    	height: 1720px;
+    }
+
+    #UkraineCulture {
+    	line-height: 85px;
+    }
 }
 
 @media only screen and (max-width: 1080px) {
@@ -1147,6 +1266,58 @@ background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(218,230,230,1) 
 	.introduction {
 		margin-left: 21rem;
 	}
+
+	.extraNav {
+		display: block;
+	}
+
+	.extraClasses {
+		margin-top: 0;
+		margin-bottom: 0;
+		width: 270px;
+	}
+
+	.extraHeader {
+		margin-bottom: 0;
+	}
+
+	#extraSection {
+	    margin-left: 24rem;
+	    margin-top: -27.7rem;
+   }
+    #extraSectionTWO {
+	    margin-left: 24rem;
+	    margin-top: -27.7rem;
+    }
+    #extraSectionSIX {
+	    margin-left: 24rem;
+	    margin-top: -27.7rem;
+    }
+    #extraSectionSEVEN {
+	    margin-left: 24rem;
+	    margin-top: -27.7rem;
+    }
+    #extraSectionEIGHT {
+	    margin-left: 24rem;
+	    margin-top: -27.7rem;
+    }
+    #extraSectionNINE {
+	    margin-left: 24rem;
+	    margin-top: -27.7rem;
+    }
+
+    .extraNav {
+    	margin-top: 10rem;
+    	margin-left: -5rem;
+    }
+
+    .QID {
+    	font-size: 1.5em;
+    }
+
+    .extraAn {
+    	font-size: 1em;
+    }
 }
 
 @media only screen and (max-width: 1050px) {
@@ -1162,6 +1333,47 @@ background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(218,230,230,1) 
 	.contactUkrainePeremozhe {
 		top: 0;
 	}
+
+	#extraSection {
+	    margin-left: 20rem;
+   }
+    #extraSectionTWO {
+	    margin-left: 20rem;
+    }
+    #extraSectionSIX {
+	    margin-left: 20rem;
+    }
+    #extraSectionSEVEN {
+	    margin-left: 20rem;
+    }
+    #extraSectionEIGHT {
+	    margin-left: 20rem;
+    }
+    #extraSectionNINE {
+	    margin-left: 20rem;
+    }
+
+    .imgQ1 {
+    	margin-left: 10px;
+    }
+
+    .imgQ2 {
+    	margin-right: 10px;
+    }
+
+    .Cyrillic {
+    	left: -2rem;
+    }
+
+    .languageVideo {
+    	position: relative;
+    	right: 3rem;
+    }
+
+    .pronounce {
+    	position: relative;
+    	right: 3rem;
+    }
 }
 
 @media only screen and (max-width: 970px) {
@@ -1179,12 +1391,150 @@ background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(218,230,230,1) 
 		font-size: 0.8em;
 		margin-left: 21.5rem;
 	}
+
+	.imgQ2 {
+		display: none;
+	}
+
+	.tableMarginQ {
+		margin-left: 16rem;
+		margin-right: 0;
+	}
+
+	.QID {
+		margin-left: 12rem;
+		margin-right: 0;
+	}
+
+	.Cyrillic {
+    	left: -4rem;
+    }
+
+    .languageVideo {
+    	right: 5rem;
+    }
+
+    .pronounce {
+    	right: 5rem;
+    }
+
+    .BriefSummary {
+    	width: 600px;
+    }
 }
 
 @media only screen and (max-width: 930px) {
 
 	.navLinks {
 		font-size: 1.7em;
+	}
+
+	#extraSection {
+	    width: 500px;
+   }
+    #extraSectionTWO {
+	    width: 500px;
+    }
+    #extraSectionSIX {
+	    width: 500px;
+    }
+    #extraSectionSEVEN {
+	    width: 500px;
+    }
+    #extraSectionEIGHT {
+	    width: 500px;
+    }
+    #extraSectionNINE {
+	    width: 500px;
+    }
+
+    .extraInline {
+    	font-size: 2em;
+    }
+
+    .extraParagraph {
+    	width: 450px;
+    	font-size: 0.95em;
+    }
+
+    #influenceBtn {
+    	margin-top: 1rem;
+    	margin-left: 12rem;
+    }
+    #influenceBtnTWO {
+    	margin-left: 12rem;
+    }
+    #influenceBtnSIX {
+    	margin-left: 12rem;
+    }
+    #influenceBtnSEVEN {
+    	margin-top: 1rem;
+    	margin-left: 12rem;
+    }
+    #influenceBtnEIGHT {
+    	margin-top: 1rem;
+    	margin-left: 12rem;
+    }
+    #influenceBtnNINE {
+    	margin-left: 12rem;
+    }
+
+    .Cyrillic {
+    	left: -6rem;
+    }
+
+    .languageVideo {
+    	right: 7rem;
+    }
+
+    .pronounce {
+    	right: 7rem;
+    }
+
+    #historyName {
+    	text-align: left;
+    }
+
+    #historyParagraph {
+    	width: 400px;
+    	margin-left: 1rem;
+    }
+
+    .BriefParagraph {
+    	width: 400px;
+    }
+
+    .historyTopic {
+    	top: 80rem;
+    	left: 3rem;
+    }
+
+    .historyImages {
+    	height: 31200px;
+    }
+
+    .imagesPeremozhe {
+    	margin-bottom: 26rem;
+    }
+
+    .BriefTitle {
+    	font-size: 0.8em;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+
+	.newAdditions {
+		font-size: 1em;
+		width: 250px;
+	}
+
+	.Learn {
+		margin-left: -15rem;
+	}
+
+	.navLinks {
+		margin-top: 0.5rem;
 	}
 }
 
@@ -1229,18 +1579,220 @@ background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(218,230,230,1) 
 	.navLinks {
 		margin-left: 1.5rem;
 	}
+
+	.extraInline {
+		font-size: 1.2em;
+	}
+
+	#extraSection {
+		width: 380px;
+	}
+	#extraSectionTWO {
+		width: 380px;
+	}
+	#extraSectionSIX {
+		width: 380px;
+	}
+	#extraSectionSEVEN {
+		width: 380px;
+	}
+	#extraSectionEIGHT {
+		width: 380px;
+	}
+	#extraSectionNINE {
+		width: 380px;
+	}
+
+	.extraParagraph {
+		width: 350px;
+		font-size: 0.8em;
+	}
+
+	#quizParagraph {
+	    font-size: 0.9em;
+    }
+
+    #kartynyParagraph {
+	    font-size: 1em;
+    }
+
+    #sourcesParagraph {
+	    font-size: 1.2em;
+    }
+
+	#influenceBtn {
+		margin-top: 1rem;
+		margin-left: 8rem;
+	}
+	#influenceBtnTWO {
+		margin-left: 8rem;
+	}
+	#influenceBtnSIX {
+		margin-left: 8rem;
+	}
+	#influenceBtnSIX {
+		margin-left: 8rem;
+	}
+	#influenceBtnSEVEN {
+		margin-top: 1rem;
+		margin-left: 8rem;
+	}
+	#influenceBtnEIGHT {
+		margin-top: 1rem;
+		margin-left: 8rem;
+	}
+	#influenceBtnNINE {
+		margin-left: 8rem;
+	}
+
+	.topicBoxes {
+		margin-top: 5rem;
+	}
+
+	.extraDaily {
+	    float: none;
+	    margin-left: 1rem;
+	    margin-top: 5rem;
+	}
+
+	.progressQ {
+		flex-wrap: wrap;
+	}
+
+	#progressName {
+		bottom: 6rem;
+	}
+
+	.QID {
+		margin-left: 15rem;
+		font-size: 1.2em;
+	}
+
+	#CorrectAnswers {
+		font-size: 1.5em;
+	}
+
+	.Cyrillic {
+    	left: -10rem;
+    }
+
+    .languageVideo {
+    	right: 11rem;
+    }
+
+    .pronounce {
+    	right: 11rem;
+    }
+
+    .Krasota {
+    	font-size: 0.6em;
+    }
+
+    .BriefTitle {
+    	font-size: 0.6em;
+    }
+}
+
+@media only screen and (max-width: 780px) {
+
+	.QID {
+		margin-left: 10rem;
+	}
+
+	.tableMarginQ {
+		margin-left: 12rem;
+	}
+
+	.historyImages {
+		display: none;
+	}
+
+	.CultureImages {
+		display: none;
+	}
 }
 
 @media only screen and (max-width: 730px) {
-	
-	.navigator {
-		display: grid;
-		grid-template-columns: 1fr 1fr;
+
+	.newAdditions {
+		position: relative;
+		bottom: 3.5rem;
+		left: 3rem;
 	}
 
-	#None {
+	.navigator {
 		display: block;
 	}
+
+	.navLinks {
+		width: fit-content;
+	}
+
+	.Learn {
+		margin-left: -20rem;
+	}
+
+	.contactUkrainePeremozhe {
+		margin-top: 6rem;
+	}
+
+	#welcomeToUkrainePeremozhe {
+		margin-top: -30rem;
+	}
+
+	.extraNav {
+		margin-top: 41rem;
+		margin-left: 7rem;
+	}
+
+	#extraSection {
+		margin-top: -58rem;
+		margin-left: 10rem;
+	}
+	#extraSectionTWO {
+		margin-top: -58rem;
+		margin-left: 10rem;
+	}
+	#extraSectionSIX {
+		margin-top: -58rem;
+		margin-left: 10rem;
+	}
+	#extraSectionSEVEN {
+		margin-top: -58rem;
+		margin-left: 10rem;
+	}
+	#extraSectionEIGHT {
+		margin-top: -58rem;
+		margin-left: 10rem;
+	}
+	#extraSectionNINE {
+		margin-top: -58rem;
+		margin-left: 10rem;
+	}
+
+	.extraAn {
+		font-size: 0.8em;
+	}
+
+	.tableMarginQ {
+		margin-left: 14rem;
+	}
+
+	.QID {
+		font-size: 1em;
+	}
+
+	.Cyrillic {
+    	left: -12rem;
+    }
+
+    .languageVideo {
+    	right: 13rem;
+    }
+
+    .pronounce {
+    	right: 13rem;
+    }
 }
 
 @media only screen and (max-width: 680px) {
@@ -1260,6 +1812,36 @@ background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(218,230,230,1) 
 	body {
 		height: 1180px;
 	}
+
+	#CorrectAnswers {
+		font-size: 1.2em;
+	}
+
+	.Cyrillic {
+    	left: -14rem;
+    	margin-top: 82rem;
+    }
+
+    .languageVideo {
+    	right: 15rem;
+    }
+
+    .pronounce {
+    	right: 15rem;
+    	white-space: nowrap;
+    }
+
+    .langInline {
+    	width: 400px;
+    }
+
+    .parahrafa {
+    	width: 400px;
+    }
+
+    .basicWords {
+    	margin-top: 295rem;
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -1267,68 +1849,115 @@ background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(218,230,230,1) 
 	.navLinks {
 		font-size: 1.5em;
 	}
+
+	.Learn {
+		margin-left: -25rem;
+	}
+
+	#extraSection {
+		margin-left: 5rem;
+	}
+	#extraSectionTWO {
+		margin-left: 5rem;
+	}
+	#extraSectionSIX {
+		margin-left: 5rem;
+	}
+	#extraSectionSEVEN {
+		margin-left: 5rem;
+	}
+	#extraSectionEIGHT {
+		margin-left: 5rem;
+	}
+	#extraSectionNINE {
+		margin-left: 5rem;
+	}
+
+	.extraNav {
+		margin-left: 2rem;
+	}
+
+	.continuePageName {
+		font-size: 2em;
+		margin-top: 2.5rem;
+	}
+
+	.QID {
+		margin-left: 8rem;
+	}
+
+	.Cyrillic {
+    	left: -17rem;
+    }
+
+    .languageVideo {
+    	right: 18rem;
+    }
+
+    .pronounce {
+    	right: 18rem;
+    }
+
+    .Krasota {
+    	font-size: 0.5em;
+    }
+
+    .basicWords {
+    	margin-top: 310rem;
+    }
 }
 
 @media only screen and (max-width: 550px) {
 
-	.navLinks {
-		font-size: 1.3em;
+	.contactUkrainePeremozhe {
+		margin-top: 8rem;
+	}
+
+	.Learn {
+		margin-left: -30rem;
+	}
+
+	#extraSection {
+		margin-left: 1rem;
+	}
+	#extraSectionTWO {
+		margin-left: 1rem;
+	}
+	#extraSectionSIX {
+		margin-left: 1rem;
+	}
+	#extraSectionSEVEN {
+		margin-left: 1rem;
+	}
+	#extraSectionEIGHT {
+		margin-left: 1rem;
+	}
+	#extraSectionNINE {
+		margin-left: 1rem;
+	}
+
+	.extraNav {
+		margin-left: -2rem;
+	}
+
+	.imgQ1 {
+		display: none;
+	}
+
+	.divQ {
+		top: 10rem;
+	}
+
+	.QID {
+		margin: auto;
+	}
+
+	.tableMarginQ {
+		margin: auto;
 	}
 }
 
 @media only screen and (max-width: 530px) {
-	
-	.divNavigator {
-		display: none;
-	}
-
-	.mobileMenu {
-		display: block;
-		position: absolute;
-		right: 0;
-	}
-
-	i {
-		font-size: 2em;
-		padding: 10px;
-		cursor: pointer;
-	}
-
-	#mobileText {
-		position: fixed;
-		margin: 0;
-		padding-top: 5px;
-		padding-left: 5px;
-        font-family: 'Roboto Condensed', sans-serif;
-	}
-
-	.mobileMenuBody {
-		position: fixed;
-		right: 0;
-		top: 0;
-		border: 3px solid black;
-		width: 220px;
-		height: 296px;
-		background-color: gray;
-		z-index: 1;
-	}
-
-	.mobileUL {
-		padding-top: 30px;
-	}
-
-	.closeMenu {
-		float: right;
-		position: relative;
-		bottom: 2px;
-	}
-
-	.navMobile {
-		border-top: black 3px solid;
-		font-size: 2em;
-		background-color: lightgrey;
-		padding: 5px;
-	}
 
 	.introduction {
 		width: 400px;
@@ -1338,19 +1967,66 @@ background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(218,230,230,1) 
 		font-size: 2em;
 	}
 
-	.extraInformation {
-		margin-bottom: -37rem;
-	}
-
 	.contactUkrainePeremozhe {
 		position: relative;
-		top: 25rem;
+		top: 16rem;
 		right: 16.5rem;
 	}
 
 	body {
 		height: 1600px;
 	}
+
+	.newAdditions {
+		font-size: 0.7em;
+		width: 200px;
+		bottom: 3rem;
+	}
+
+	.ImyaKartyny {
+		font-size: 2em;
+	}
+
+	.Opys {
+		width: 320px;
+	}
+
+	.Kartyny {
+		margin-top: 5rem;
+	}
+
+	#CorrectAnswers {
+		font-size: 1em;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+
+	.navLinks {
+		font-size: 1.8em;
+	}
+
+	.newAdditions {
+		bottom: 3.6rem;
+		width: 120px;
+	}
+
+	.continuePageName {
+		font-size: 1.5em;
+		margin-top: 2.8rem;
+	}
+
+	.Cyrillic {
+    	left: -19rem;
+    }
+
+    .languageVideo {
+    	right: 20rem;
+    }
+
+    .pronounce {
+    	right: 20rem;
+    }
 }
 
 @media only screen and (max-width: 450px) {
@@ -1363,19 +2039,198 @@ background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(218,230,230,1) 
 		font-size: 1.5em;
 	}
 
-	i {
-		font-size: 2.5em;
-	}
-
-	.closeMenu {
-		bottom: 7px;
-	}
-
 	.extraInformation {
-		margin-bottom: -51rem;
+		margin-bottom: -45rem;
 	}
 
 	body {
 		height: 1850px;
+	}
+
+	.QID {
+		font-size: 0.9em;
+	}
+
+	.extraAn {
+		font-size: 0.7em;
+	}
+}
+
+@media only screen and (max-width: 430px) {
+
+	.Learn {
+		width: 320px;
+	}
+
+	.Imya {
+		font-size: 0.7em;
+	}
+
+	.KrasotaDva {
+		font-size: 0.5em;
+	}
+
+	.Description {
+		width: 300px;
+		font-size: 0.8em;
+	}
+
+	.extraPictureMargin {
+		width: 120px;
+		height: 90px;
+	}
+
+	.extraInline {
+		font-size: 0.9em;
+		position: relative;
+		top: -45px;
+	}
+
+	#extraSection {
+		width: 300px;
+	}
+	#extraSectionTWO {
+		width: 300px;
+	}
+	#extraSectionSIX {
+		width: 300px;
+	}
+	#extraSectionSEVEN {
+		width: 300px;
+	}
+	#extraSectionEIGHT {
+		width: 300px;
+	}
+	#extraSectionNINE {
+		width: 300px;
+	}
+
+	.extraParagraph {
+		width: 280px;
+		font-size: 0.8em;
+	}
+
+    #kartynyParagraph {
+	    font-size: 0.95em;
+    }
+
+	#influenceBtn {
+		margin-top: 0.5rem;
+		margin-left: 5.5rem;
+	}
+	#influenceBtnTWO {
+		margin-top: 0.5rem;
+		margin-left: 5.5rem;
+	}
+	#influenceBtnSIX {
+		margin-left: 5.5rem;
+		position: relative;
+		top: 1.2rem;
+	}
+	#influenceBtnSIX {
+		margin-top: 0.5rem;
+		margin-left: 5.5rem;
+	}
+	#influenceBtnSEVEN {
+		margin-top: 0.5rem;
+		margin-left: 5.5rem;
+	}
+	#influenceBtnEIGHT {
+		margin-top: 0.5rem;
+		margin-left: 5.5rem;
+	}
+	#influenceBtnNINE {
+		margin-top: 0.5rem;
+		margin-left: 5.5rem;
+	}
+
+	.extraNav {
+		margin-left: -4rem;
+	}
+
+	.continuePageName {
+		margin-left: -2rem;
+	}
+
+	.extraDaily {
+		width: 300px;
+	}
+
+	.Treba {
+		font-size: 0.8em;
+	}
+
+	.topicBoxes {
+		margin-left: 0.8rem;
+	}
+
+	.inlineQP {
+		width: 20px;
+		height: 20px;
+	}
+
+	#CorrectAnswers {
+		font-size: 0.8em;
+	}
+
+	.scoreBox {
+		width: 320px;
+	}
+
+	.Krasota {
+		font-size: 0.4em;
+	}
+
+	.BriefParagraph {
+		width: 320px;
+	}
+
+	#historyParagraph {
+		width: 320px;
+		margin-left: 0.5rem;
+	}
+
+	.historyTopic {
+		top: 100rem;
+		left: 0.1rem;
+	}
+
+	.BriefTitle {
+		bottom: 11rem;
+		left: -15rem;
+		font-size: 0.8em;
+	}
+
+	.historyCulture {
+		margin-left: 0.5rem;
+	}
+
+	.Vebir {
+		width: 350px;
+		height: 200px;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+
+	.newAdditions {
+		width: 80px;
+		bottom: 4.5rem;
+		left: 2rem;
+	}
+
+	.continuePageName {
+		font-size: 1.2em;
+	}
+
+	.QID {
+		font-size: 0.8em;
+	}
+}
+
+@media only screen and (max-width: 350px) {
+
+	.Learn {
+		margin-left: -30.5rem;
 	}
 }
