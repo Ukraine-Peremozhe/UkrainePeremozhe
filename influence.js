@@ -8,11 +8,22 @@ const continuePageName = document.querySelector('.continuePageName');
 const extraInline = document.querySelectorAll('.extraInline');
 const razdvatry = document.querySelectorAll('.razdvatry');
 const Learn = document.querySelectorAll('.Learn');
+const thousandEighty = window.matchMedia("(max-width: 1080px)");
+
+for (let i = 0; i < extClass.length; i++) {
+    if (thousandEighty.matches) {
+        extraA.style.width = '270px';
+        extClass[i].style.width = '270px';
+    };
+};
 
 for (let i = 0; i < extClass.length; i++) {
     extClass[i].addEventListener('mouseover', () => {
         extraA.style.transition = '1s';
         extraA.style.width = '80px';
+        if (thousandEighty.matches) {
+            extraA.style.width = '270px';
+        };
     });
 };
 
@@ -20,6 +31,9 @@ for (let i = 0; i < extClass.length; i++) {
     extClass[i].addEventListener('mouseout', () => {
         extraA.style.transition = '1s';
         extraA.style.width = '250px';
+        if (thousandEighty.matches) {
+            extraA.style.width = '270px';
+        };
     });
 };
 
