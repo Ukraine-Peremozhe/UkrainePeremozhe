@@ -35,25 +35,3 @@ dropdownarrow.addEventListener('click', () => {
 		    }
 	};
 });
-
-const newAdditions = document.querySelector('.newAdditions');
-const Podyvysya = document.getElementById('Podyvysya');
-const TakDobre = document.getElementById('TakDobre');
-const Teper = document.querySelectorAll('.Learn');
-const razdvatry = document.querySelector('.razdvatry');
-
-function funktsiya(Teper) {
-    Teper.style.display = 'none'; 
-}
-
-newAdditions.addEventListener('click', () => {
-    Teper.forEach(funktsiya);
-    TakDobre.style.opacity = '20%';
-    TakDobre.style.transition = '.2s';
-    Podyvysya.style.display = 'block';
-});
-
-razdvatry.addEventListener('click', () => {
-    Podyvysya.style.display = 'none';
-    TakDobre.style.opacity = '100%';
-});
